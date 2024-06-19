@@ -1,0 +1,31 @@
+PARA EJECUTAR: Abrir la terminal y ejectutar: python manage.py runserver
+
+Para probar manualmente la función fetch_movies desde consola (Ctrl + shift + ñ) o yendo a 'Terminal' 
+para probar en la consola de Django:
+
+
+PEGAR EN LA CONSOLA:
+------------------------
+python manage.py shell
+------------------------
+Para ejecutar la función 'fetch_movies' manualmente en la consola de Django y probar que funciona trayendo las peliculas:
+---------------------------------------
+from movies.utils import fetch_movies
+api_key = 'e2e3c62e'
+movies = fetch_movies(api_key)
+print(movies)
+------------------------------------
+
+- Verificar la Salida de peliculas.
+http://127.0.0.1:8000
+http://127.0.0.1:8000/movies/
+
+
+
+Reinicia el servidor de desarrollo:
+---------------------------------------
+python manage.py runserver
+--------------------------------------
+
+Ing. Ricardo Daza Jimenez
+Git: 

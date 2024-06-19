@@ -1,0 +1,22 @@
+-Mencione brevemente qué opciones de escalabilidad existen en software para
+aumentar el rendimiento de una base de datos.
+
+RTA:
+Para las opciones de escalabilidad que brinden una mejora significativa en el rendimiento de la BD podiamos mencionar:
+El escalado vertical y el escalado horizontal.
+
+El escalado vertical: Trata de aplicar mejoras en el rendimiento del equipo que ejecuta el server de la Base de Datos,
+aumentando la memoria RAM del equipo o instancia, el almacenamiento interno, la velocidad del internet y la CPU.
+Este proceso pese a ser un poco mas costoso a largo plazo, es una solución simple y rápida que puede mejorar el 
+rendimiento a corto plazo.
+
+La escalabilidad Horizontal: trata de distribuir la base de datos en varios servidores, esto implica 
+agregar más servidores a la infraestructura y dividir la carga de trabajo entre ellos.
+
+Es una gran ventaja respecto al escalado vertical porque permite manejar grandes cargas de trabajo de manera eficiente,
+siendo mas rentable a largo plazo. AUNQUE este tipo de escalado es más compleja de implementar y administrar.
+
+
+OTRAS OPCIONES DE ESCALABILIDAD SERIAN:
+Caché: Almacenar datos accedidos con frecuencia en una memoria más rápida para reducir el tiempo de acceso.
+NoSQL: Usar bases de datos NoSQL que son más escalables que las bases de datos relacionales tradicionales.
